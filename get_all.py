@@ -57,7 +57,6 @@ def get_comic_info(comic_id):
                 get_pic('http://www.manhuagui.com/%s' % chapter[0])
             #with open('chapter-%s-%s.txt' % (i, chapter_title), 'w') as f:
                 #json.dump(l, f)
-            break
             i += 1
 
             os.chdir('..')
